@@ -4,6 +4,23 @@ The [SmoQySuite](https://github.com/SmoQySuite) GitHub organization hosts a suit
 implementing various numerical methods based on many-body techinques to support research efforts studying
 strongly-correlated quantum materials.
 
+## Package Overview
+
+### High-Level Packages
+
+- [SmoQyDQMC.jl](https://github.com/SmoQySuite/SmoQyDQMC.jl.git): Perform determinant quantum Monte Carlo (DQMC) simulations of models supporting local Hubbard and flexibly parameterized electron-phonon interactions.
+
+### Low-Level Packages
+
+- [JDQMCFramework.jl](https://github.com/SmoQySuite/JDQMCFramework.jl.git): Implements the core computation kernel required to write a DQMC code with a computational cost that scales linearly with the inverse temperature.
+- [JDQMCMeasurements.jl](https://github.com/SmoQySuite/JDQMCMeasurements.jl.git): Exports functions to measure various correlation functions for arbitrary lattice geometries in a DQMC simulation. 
+
+### Utility Packages
+
+- [LatticeUtilities.jl](https://github.com/SmoQySuite/LatticeUtilities.jl.git): Lightweight package for representing arbitrary periodic lattice geometries.
+- [StableLinearAlgebra.jl](https://github.com/SmoQySuite/StableLinearAlgebra.jl.git): Export types and optimized routines for performing various numerically stable linear algebra operations. The algorithms implemented in this package are necessary to ensure that DQMC and other similar types of quantum Monte Carlo algorithms remain numerically stable at low temperatures.
+- [Checkerboard.jl](https://github.com/SmoQySuite/Checkerboard.jl.git): Implements the checkerboard approximation, whereby the exponentiated electron kinetic energy matrix associated with a tight-binding model is represented by a sparse matrix.
+
 # Contact Us
 
 - Prof. Steve Johnston @ [sjohn145@utk.edu](mailto:sjohn145@utk.edu)
