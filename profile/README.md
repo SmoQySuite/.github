@@ -4,7 +4,7 @@ The [SmoQySuite](https://github.com/SmoQySuite) GitHub organization hosts a suit
 implementing various numerical methods based on many-body techinques to support research efforts studying
 strongly-correlated quantum materials.
 
-## Package Overview
+## Package Catalogue
 
 ### High-Level Packages
 
