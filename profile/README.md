@@ -21,6 +21,7 @@ strongly-correlated quantum materials.
 - [LatticeUtilities.jl](https://github.com/SmoQySuite/LatticeUtilities.jl.git): Lightweight package for representing arbitrary periodic lattice geometries.
 - [StableLinearAlgebra.jl](https://github.com/SmoQySuite/StableLinearAlgebra.jl.git): Export types and optimized routines for performing various numerically stable linear algebra operations. The algorithms implemented in this package are necessary to ensure that DQMC and other similar types of quantum Monte Carlo algorithms remain numerically stable at low temperatures.
 - [Checkerboard.jl](https://github.com/SmoQySuite/Checkerboard.jl.git): Implements the checkerboard approximation, whereby the exponentiated electron kinetic energy matrix associated with a tight-binding model is represented by a sparse matrix.
+- [SmoQyHankelCorrCleaner.jl](https://github.com/SmoQySuite/SmoQyHankelCorrCleaner.jl.git): Implements methods for denoising imaginary time correlation data using the Hankel projection method introduced in the paper [arXiv:2403.12349](https://arxiv.org/abs/2403.12349).
 
 # Contact Us
 
